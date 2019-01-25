@@ -18,10 +18,10 @@ software.
 
 ROM: IOS-XE ROMMON
 
-cisco3 uptime is 16 weeks, 1 day, 16 hours, 47 minutes
-Uptime for this control processor is 16 weeks, 1 day, 16 hours, 49 minutes
+cisco3 uptime is 16 weeks, 1 day, 19 hours, 37 minutes
+Uptime for this control processor is 16 weeks, 1 day, 19 hours, 40 minutes
 System returned to ROM by PowerOn
-System restarted at 12:15:34 PDT Wed Oct 3 2018
+System restarted at 12:15:35 PDT Wed Oct 3 2018
 System image file is "bootflash:c1100-universalk9_ias.16.08.01.SPA.bin"
 Last reload reason: PowerOn
 
