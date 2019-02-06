@@ -5,8 +5,7 @@ from pprint import pprint
 from netmiko import ConnectHandler
 from getpass import getpass
 
-#device_password = getpass()
-device_password = "88newclass"
+device_password = getpass()
 
 cisco3 = {
     "host": "cisco3.lasthop.io",
