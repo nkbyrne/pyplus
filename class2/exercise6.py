@@ -2,8 +2,6 @@
 from netmiko import ConnectHandler
 from getpass import getpass
 from pprint import pprint
-from netmiko import ConnectHandler
-from getpass import getpass
 import time
 
 device_password = getpass()
