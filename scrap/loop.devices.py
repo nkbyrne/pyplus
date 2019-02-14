@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 import yaml
-import time
 from netmiko import ConnectHandler
-from pprint import pprint
 
 with open("/home/nbyrne/.netmiko.yml") as f:
     devices = yaml.load(f)
