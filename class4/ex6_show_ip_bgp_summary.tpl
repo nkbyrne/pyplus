@@ -14,3 +14,4 @@ Start
 bgp
   ^${NEIGHBOR}\s+\d\s+${REMOTE_AS}\s+\d+\s+\d+\s+\d+\s+\d+\s+\d+\s+${UP_DOWN}\s+${STATE_PREFIX_RCVD} -> Record
 
+EOF
