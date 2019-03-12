@@ -1,0 +1,33 @@
+---
+arista1:
+  host: arista1.lasthop.io
+  username: pyclass
+  transport: https
+  data:
+    intf_name: Loopback81
+    intf_ip: 172.31.80.81
+    intf_mask: 24
+arista2:
+  host: arista2.lasthop.io
+  username: pyclass
+  transport: https
+  data:
+    intf_name: Loopback82
+    intf_ip: 172.31.80.82
+    intf_mask: 24
+arista3:
+  host: arista3.lasthop.io
+  username: pyclass
+  transport: https
+  data:
+    intf_name: Loopback83
+    intf_ip: 172.31.80.83
+    intf_mask: 24
+arista4:
+  host: arista4.lasthop.io
+  username: pyclass
+  transport: https
+  data:
+    intf_name: Loopback84
+    intf_ip: 172.31.80.84
+    intf_mask: 24
