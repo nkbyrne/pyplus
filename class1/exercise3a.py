@@ -8,7 +8,7 @@ device = {
     "device_type": "cisco_ios",
 }
 
-print("Enter Password for: {}".format(device['host']))
+print("Enter Password for: {}".format(device["host"]))
 
 device["password"] = getpass()
 

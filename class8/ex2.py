@@ -40,7 +40,7 @@ def print_output(dev, routes, arp):
     print()
 
 
-#def print_output():
+# def print_output():
 #    print()
 #    print("-" * 60)
 #    print("Hostname: {}".format(device.hostname))

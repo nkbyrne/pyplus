@@ -15,11 +15,7 @@ device = {
 net_connect = ConnectHandler(**device)
 print(net_connect.find_prompt())
 
-cfg = [
-    'ip name-server 1.1.1.1',
-    'ip name-server 1.0.0.1',
-    'ip domain-lookup'
-]
+cfg = ["ip name-server 1.1.1.1", "ip name-server 1.0.0.1", "ip domain-lookup"]
 
 output = net_connect.send_config_set(cfg)
 print(output)

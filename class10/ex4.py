@@ -3,6 +3,7 @@ import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from my_devices import network_devices
 from my_functions import ssh_command2
+
 """Create a new program that completes the same task as Exercise 3b except using
 multiple processes (i.e. a 'ProcessPoolExecutor')."""
 

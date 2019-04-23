@@ -9,17 +9,9 @@ env.loader = FileSystemLoader([".", "./templates/"])
 template_file = "ex2a.j2"
 template = env.get_template(template_file)
 
-nxos1 = {
-    "interface": "Ethernet2/1",
-    "ip_address": "10.1.100.1",
-    "netmask": "24",
-}
+nxos1 = {"interface": "Ethernet2/1", "ip_address": "10.1.100.1", "netmask": "24"}
 
-nxos2 = {
-    "interface": "Ethernet2/1",
-    "ip_address": "10.1.100.2",
-    "netmask": "24",
-}
+nxos2 = {"interface": "Ethernet2/1", "ip_address": "10.1.100.2", "netmask": "24"}
 
 devices = [nxos1, nxos2]
 
@@ -28,4 +20,3 @@ for device in devices:
     print()
     print(output)
     print()
-

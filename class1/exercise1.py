@@ -7,7 +7,6 @@ device = {
     "username": "pyclass",
     "password": getpass(),
     "device_type": "cisco_nxos",
-
 }
 
 net_connect = ConnectHandler(**device)

@@ -468,9 +468,9 @@ interfaces = [
 ]
 
 new_interfaces = interfaces[0]
-new_interfaces = new_interfaces['result']
-new_interfaces = new_interfaces['interfaces']
+new_interfaces = new_interfaces["result"]
+new_interfaces = new_interfaces["interfaces"]
 for inf_name, inf_value in new_interfaces.items():
     print(inf_name)
-    print(inf_value['interfaceStatus'])
+    print(inf_value["interfaceStatus"])
     print()

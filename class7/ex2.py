@@ -9,7 +9,6 @@ zones = sz["zones-information"]["zones-security"]
 
 print("-" * 30)
 for tally, zone in enumerate(zones):
-    print(("Security Zone #{} {}").format(tally + 1,
-          zone['zones-security-zonename']))
+    print(("Security Zone #{} {}").format(tally + 1, zone["zones-security-zonename"]))
 
 print("-" * 30)

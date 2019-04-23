@@ -3,6 +3,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from my_devices import network_devices
 from my_functions import ssh_command2
 import pdb
+
 """Using a context manager, the ProcessPoolExecutor, and the map() method,
 create a solution that executes "show ip arp" on all of the devices defined in
 my_devices.py. Note, the Juniper device will require "show arp" instead of "show

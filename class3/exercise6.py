@@ -14,8 +14,9 @@ device = "cisco4"
 net_connect = ConnectHandler(**devices[device])
 showrun = net_connect.send_command("show run")
 showrunparsed = CiscoConfParse(showrun.splitlines())
-inf = showrunparsed.find_objects_w_child(parentspec=r"^interface",
-                                         childspec=r"^\s+ip address")
+inf = showrunparsed.find_objects_w_child(
+    parentspec=r"^interface", childspec=r"^\s+ip address"
+)
 
 for interface in inf:
     print("#" * 60)

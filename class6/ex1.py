@@ -15,9 +15,9 @@ connection = pyeapi.client.connect(
 # device = pyeapi.client.Node(connection, enablepwd=enable)
 device = pyeapi.client.Node(connection)
 output = device.enable(["show ip arp"])
-#output = output[0]
-#output = output['result']
-#output = output['ipV4Neighbors']
+# output = output[0]
+# output = output['result']
+# output = output['ipV4Neighbors']
 output = output[0]["result"]["ipV4Neighbors"]
 
 print()

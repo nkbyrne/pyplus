@@ -22,7 +22,9 @@ http_headers["Authorization"] = f"Token {token}"
 
 data = {"address": "192.0.2.82/32"}
 
-resp = requests.post(BASE_URL, headers=http_headers, data=json.dumps(data), verify=False)
+resp = requests.post(
+    BASE_URL, headers=http_headers, data=json.dumps(data), verify=False
+)
 
 print()
 print(f"Response Code: {resp.status_code}")
@@ -37,7 +39,7 @@ this ID, construct a new URL. Use this new URL and the HTTP GET method to
 retrieve only the API information specific to this IP address"""
 
 address_id = resp.json()["id"]
-#ddress_id = "65"
+# ddress_id = "65"
 BASE_URL = f"https://netbox.lasthop.io/api/ipam/ip-addresses/{address_id}/"
 
 resp = requests.get(BASE_URL, headers=http_headers, verify=False)

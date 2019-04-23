@@ -20,15 +20,18 @@ device = Device(
 
 command = device.show("show interface Ethernet2/1")
 # print(etree.tostring(command).decode())
-#interface = command.find(".//{*}interface").text
-#state = command.find(".//{*}state").text
-#mtu = command.find(".//{*}eth_mtu").text
-#print("Interface: {}; State: {}; MTU: {}".format(interface, state, mtu))
+# interface = command.find(".//{*}interface").text
+# state = command.find(".//{*}state").text
+# mtu = command.find(".//{*}eth_mtu").text
+# print("Interface: {}; State: {}; MTU: {}".format(interface, state, mtu))
 
-print("Interface: {}; State: {}; MTU: {}"
-      .format(command.find(".//{*}interface").text,
-              command.find(".//{*}state").text,
-              command.find(".//{*}eth_mtu").text))
+print(
+    "Interface: {}; State: {}; MTU: {}".format(
+        command.find(".//{*}interface").text,
+        command.find(".//{*}state").text,
+        command.find(".//{*}eth_mtu").text,
+    )
+)
 
 commands = ["show system uptime", "show system resources"]
 

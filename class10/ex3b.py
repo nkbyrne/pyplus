@@ -3,6 +3,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from my_devices import network_devices
 from my_functions import ssh_command2
+
 """ Instead of waiting for all of the futures to complete, use "as_completed" to
 print the future results as they come available. Reuse your "ssh_command2"
 function to accomplish this. Once again use the concurrent futures

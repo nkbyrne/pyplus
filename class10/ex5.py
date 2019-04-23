@@ -3,11 +3,12 @@ import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from my_devices import network_devices
 from my_functions import ssh_command2
+
 """ Using a context manager and a 'ProcessPoolExecutor', complete the same task
 as Exercise 4."""
 
 max_threads = 4
-#pool = ProcessPoolExecutor(max_threads)
+# pool = ProcessPoolExecutor(max_threads)
 
 
 def main():

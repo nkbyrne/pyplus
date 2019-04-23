@@ -6,6 +6,7 @@ from my_functions import open_napalm_connection, create_checkpoint
 # Surpress SSL warnings
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 mydevice = nxos1

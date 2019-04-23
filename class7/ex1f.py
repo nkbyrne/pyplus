@@ -7,9 +7,9 @@ with open("show_security_zones.xml", "r") as f:
 trust_zone = sz[0]
 
 
-#total_children = len(trust_zone) - 1
-#x = 0
-#while x <= total_children:
+# total_children = len(trust_zone) - 1
+# x = 0
+# while x <= total_children:
 #    print(trust_zone.getchildren()[x].tag)
 #    x += 1
 

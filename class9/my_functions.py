@@ -15,5 +15,6 @@ def create_backup(device):
     with open(filename, "w") as f:
         f.write(backup["running"])
 
+
 def create_checkpoint(device):
     checkpoint = device.get_checkpoint_file()

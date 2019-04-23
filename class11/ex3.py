@@ -19,11 +19,11 @@ http_headers["Authorization"] = f"Token {token}"
 
 resp = requests.get(BASE_URL, headers=http_headers, verify=False)
 
-devices = (resp.json()["results"])
+devices = resp.json()["results"]
 result = []
 for device in devices:
     print("-" * 60)
-#   result.append(device["display_name"])
+    #   result.append(device["display_name"])
     print(device["display_name"])
     print("-" * 10)
     print("Location: {}".format(device["site"]["name"]))

@@ -71,10 +71,7 @@ lldp = {
 new_list = []
 for intf_name, lldp_data in lldp.items():
     lldp_data = lldp_data[0]
-    new_entry = {
-        "intf_name": intf_name,
-        "remote_port": lldp_data['remote_port']
-    }
+    new_entry = {"intf_name": intf_name, "remote_port": lldp_data["remote_port"]}
     new_list.append(new_entry)
 
 print()
@@ -82,12 +79,12 @@ pprint(new_list)
 print()
 
 
-#new_list = []
-#for intf_name, lldp_data in lldp.items():
+# new_list = []
+# for intf_name, lldp_data in lldp.items():
 #    lldp_data = lldp_data[0]
 #    new_entry = {"intf_name": intf_name, "remote_port": lldp_data["remote_port"]}
 #    new_list.append(new_entry)
 #
-#print()
-#pprint(new_list)
-#print()
+# print()
+# pprint(new_list)
+# print()

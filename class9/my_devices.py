@@ -3,10 +3,7 @@ from getpass import getpass
 passwd = getpass()
 
 cisco3 = dict(
-    hostname="cisco3.lasthop.io",
-    device_type="ios",
-    username="pyclass",
-    password=passwd,
+    hostname="cisco3.lasthop.io", device_type="ios", username="pyclass", password=passwd
 )
 
 arista1 = dict(

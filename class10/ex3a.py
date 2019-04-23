@@ -3,6 +3,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, wait
 from my_devices import network_devices
 from my_functions import ssh_command2
+
 """ Create a new function that is a duplicate of your "ssh_command" function.
 Name this function "ssh_command2". This function should eliminate all printing
 to standard output and should instead return the show command output. Note, in

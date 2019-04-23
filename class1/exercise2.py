@@ -16,6 +16,6 @@ nxos2 = {
     "device_type": "cisco_nxos",
 }
 
-for device in (nxos1,nxos2):
-  net_connect = ConnectHandler(**device)
-  print(net_connect.find_prompt())
+for device in (nxos1, nxos2):
+    net_connect = ConnectHandler(**device)
+    print(net_connect.find_prompt())

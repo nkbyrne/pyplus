@@ -18,7 +18,6 @@ nxos1_config = {
     "local_as": "22",
     "peer_ip": "10.1.100.2",
     "remote_as": "22",
-
 }
 nxos2_config = {
     "interface": "Ethernet2/1",

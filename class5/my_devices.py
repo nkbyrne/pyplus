@@ -7,7 +7,6 @@ nxos1 = {
     "device_type": "cisco_nxos",
     "username": "pyclass",
     "password": password,
-
 }
 
 nxos2 = {

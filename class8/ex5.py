@@ -12,8 +12,7 @@ check_connected(device)
 show_version = device.rpc.get_software_information()
 print(etree.tostring(show_version, encoding="unicode"))
 
-show_intf_terse_007 =
-device.rpc.get_interface_information(interface_name="fe-0/0/7", terse=True,
-        normalize=True)
-print(etree.tostring(show_intf_terse_007, encoding="unicode",
-      pretty_print=True))
+show_intf_terse_007 = device.rpc.get_interface_information(
+    interface_name="fe-0/0/7", terse=True, normalize=True
+)
+print(etree.tostring(show_intf_terse_007, encoding="unicode", pretty_print=True))

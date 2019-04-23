@@ -10,7 +10,7 @@ cisco3 = {
     "host": "cisco3.lasthop.io",
     "username": username,
     "password": password,
-    "device_type": "cisco_ios"
+    "device_type": "cisco_ios",
 }
 
 cisco4 = {
@@ -18,7 +18,7 @@ cisco4 = {
     "host": "cisco4.lasthop.io",
     "username": username,
     "password": password,
-    "device_type": "cisco_ios"
+    "device_type": "cisco_ios",
 }
 
 arista1 = {
@@ -26,7 +26,7 @@ arista1 = {
     "host": "arista1.lasthop.io",
     "username": username,
     "password": password,
-    "device_type": "arista_eos"
+    "device_type": "arista_eos",
 }
 
 arista2 = {
@@ -34,7 +34,7 @@ arista2 = {
     "host": "arista2.lasthop.io",
     "username": username,
     "password": password,
-    "device_type": "arista_eos"
+    "device_type": "arista_eos",
 }
 
 device_list = [cisco3, cisco4, arista1, arista2]

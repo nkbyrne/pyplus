@@ -2,6 +2,7 @@
 import time
 from my_devices import network_devices
 from my_functions import ssh_command
+
 """Create a Python script that executes "show version" on each of the network
 devices defined in my_devices.py. This script should execute serially i.e. one
 SSH connection after the other. Record the total execution time for the script.

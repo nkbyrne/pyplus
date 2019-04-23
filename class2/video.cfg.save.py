@@ -2,6 +2,7 @@
 from netmiko import ConnectHandler
 from getpass import getpass
 from pprint import pprint
+
 device = {
     "host": "cisco1.lasthop.io",
     "username": "pyclass",
@@ -13,7 +14,7 @@ device = {
 net_connect = ConnectHandler(**device)
 print(net_connect.find_prompt())
 
-output = net_connect.send_config_from_file(config_file='mychanges.txt')
+output = net_connect.send_config_from_file(config_file="mychanges.txt")
 print(output)
 
 save_out = net_connect.save_config()
